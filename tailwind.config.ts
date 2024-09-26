@@ -11,6 +11,8 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'headerBackgroud': "#372F3F",
+        'backgroundportifolio': '#11081B'
       },
     },
   },
