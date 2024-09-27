@@ -14,6 +14,7 @@ const config: Config = {
         'headerBackgroud': "#372F3F",
         'backgroundportifolio': '#11081B'
       },
+      
     },
   },
   plugins: [],

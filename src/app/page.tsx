@@ -8,8 +8,10 @@ import {HomePage  } from "@/app/pages/home/Home";
 export default function Home() {
   return (
     <div className="container h-full w-full mx-auto place-content-center bg-backgroundportifolio">
-      <HeaderComponent/>
+      
       <HomePage/>
+      <HeaderComponent/>
+ 
     </div>
   );
 }

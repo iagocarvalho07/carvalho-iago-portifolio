@@ -1,6 +1,6 @@
 export const HeaderComponent = () => {
     return (
-        <div className="fixed top-8 mx-4 container h-24 bg-headerBackgroud rounded-xl flex  items-center ">
+        <div className="fixed top-8 mx-4 container h-24 bg-headerBackgroud rounded-xl flex  items-center opacity-90 ">
             <div className=" w-2/5 flex md:gap-3 text-red-600 content-center justify-start ml-5" >
                 xxx
             </div>
