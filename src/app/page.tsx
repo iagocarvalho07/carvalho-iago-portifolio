@@ -4,6 +4,9 @@
 import { HeaderComponent} from "@/app/components/HeaderComponent";
 import {HomePage  } from "@/app/pages/home/Home";
 
+import { CompanyValues } from "../app/pages/home/companieValues/ComponyValues";
+
+
 
 export default function Home() {
   return (
@@ -11,6 +14,8 @@ export default function Home() {
       
       <HomePage/>
       <HeaderComponent/>
+      <CompanyValues/>
+
  
     </div>
   );
