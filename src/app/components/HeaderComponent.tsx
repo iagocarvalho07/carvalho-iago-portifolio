@@ -1,8 +1,11 @@
+import { ModeToggle } from "@/components/ui/theme-toggle"
+import { ThemeProvider } from "./theme-provider"
+
 export const HeaderComponent = () => {
     return (
-        <div className="fixed top-8 mx-4 container h-24 bg-headerBackgroud rounded-xl flex  items-center opacity-90 ">
-            <div className=" w-2/5 flex md:gap-3 text-red-600 content-center justify-start ml-5" >
-                xxx
+        <div className=" fixed z-50 top-8 mx-4 container h-24 bg-headerBackgroud rounded-xl flex  items-center opacity-90 ">
+            <div className=" w-2/5 flex md:gap-3 content-center justify-start ml-5" >
+                <ModeToggle/>
             </div>
             <div className=" container w-3/5 h-24  flex content-center justify-around place-content-center, items-center ">
                 <a className="h-fit" href="">Home</a>

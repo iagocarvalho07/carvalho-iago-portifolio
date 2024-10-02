@@ -5,18 +5,16 @@ import { HeaderComponent} from "@/app/components/HeaderComponent";
 import {HomePage  } from "@/app/pages/home/Home";
 
 import { CompanyValues } from "../app/pages/home/companieValues/ComponyValues";
+import { Hero } from "./components/Hero";
 
 
 
 export default function Home() {
   return (
-    <div className="container h-full w-full mx-auto place-content-center bg-backgroundportifolio">
-      
+    <main className="h-full w-full">
+    <div className="flex flex-col gap-20">
       <HomePage/>
-      <HeaderComponent/>
-      <CompanyValues/>
-
- 
     </div>
+  </main>
   );
 }
